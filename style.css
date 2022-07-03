@@ -36,19 +36,59 @@ nav ul li{
     font-size: 1.3rem;
 }
 .container{
-    min-height: 75vh;
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 80%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("/images/bg7.jpg");
+    background-size: cover;
 }
 
 .bottom{
     position: sticky;
     height: 80px;
     background-color: black;
+    color: white;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+}
+.icons{
+    margin: 10px 10px;
 }
 
+.icons i{
+    cursor: pointer;
+}
 #myProgressBar{
     width: 80vw;
+    margin-left: 30px;
+}
+
+.songItem{
+    display: flex;
+    height: 60px;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    height: 55px;
+    margin: 0px 23px;
+}
+
+.timestamp{
+    margin: 0px 23px;
 }
