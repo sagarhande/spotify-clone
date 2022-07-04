@@ -105,20 +105,10 @@ nav ul li{
     position: absolute;
     left: 1vw;
 }
-
-
 .songInfo img{
     opacity: 0;
     transition: opacity 0.5s ease-in;
-    position: absolute;
-    margin-top: 5px;
-}
-
-.songInfo p{
-    position: relative;
-    padding: 10px;
-    margin-left: 40px;
-    font-family: 'Varela Round', sans-serif;
+    margin-top: 4px;
 }
 
 .timestamp{
